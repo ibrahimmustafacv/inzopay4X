@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inzopay - Electronic Payment Platform</title>
+    <meta name="description" content="Inzopay electronic payment platform - Send and receive money easily and securely">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" data-aos="fade-down">
+        <div class="container">
+            <div class="nav-brand">
+                <svg width="120" height="40" viewBox="0 0 120 40" class="logo">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#6366f1"/>
+                            <stop offset="100%" style="stop-color:#8b5cf6"/>
+                        </linearGradient>
+                    </defs>
+                    <text x="10" y="25" font-family="Cairo, sans-serif" font-size="18" font-weight="700" fill="url(#logoGradient)">Inzopay</text>
+                </svg>
+            </div>
+            <div class="nav-menu">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#how-it-works" class="nav-link">How it Works</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="btn btn-primary">Get Started</button>
+            </div>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right" data-aos-delay="200">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Electronic Payments</span>
+                        <br>Made Simple & Secure
+                    </h1>
+                    <p class="hero-subtitle">
+                        Inzopay platform enables you to send and receive money instantly, create payment links, and monitor your financial transactions through a professional dashboard
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-large floating-cta">Start Free</button>
+                        <button class="btn btn-outline btn-large">Login</button>
+                    </div>
+                </div>
+                <div class="hero-animation" data-aos="fade-left" data-aos-delay="400">
+                    <div id="payment-phones-illustration">
+                        <img src="assets/payment-phones.png" alt="Payment Interface Mockups" class="payment-phones-image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="animated-particles">
+                <div class="particle particle-1"></div>
+                <div class="particle particle-2"></div>
+                <div class="particle particle-3"></div>
+                <div class="particle particle-4"></div>
+                <div class="particle particle-5"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Inzopay Platform Features</h2>
+                <p class="section-subtitle">Advanced payment solutions for all your business needs</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60">
+                            <circle cx="30" cy="30" r="25" fill="#f3f4f6" stroke="#6366f1" stroke-width="2"/>
+                            <path d="M20 30l8 8 16-16" stroke="#6366f1" stroke-width="3" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Instant Payments</h3>
+                    <p class="feature-description">Send and receive money instantly with high security and no delays</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60">
+                            <rect x="10" y="15" width="40" height="30" rx="5" fill="#f3f4f6" stroke="#8b5cf6" stroke-width="2"/>
+                            <path d="M15 25h30M20 35h20" stroke="#8b5cf6" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Smart Payment Links</h3>
+                    <p class="feature-description">Create one-time or recurring payment links with ease</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60">
+                            <rect x="10" y="10" width="40" height="35" rx="3" fill="#f3f4f6" stroke="#6366f1" stroke-width="2"/>
+                            <path d="M15 20h30M15 30h25M15 40h20" stroke="#6366f1" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Advanced Dashboard</h3>
+                    <p class="feature-description">Monitor all your financial transactions from a comprehensive dashboard</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60">
+                            <circle cx="30" cy="30" r="20" fill="#f3f4f6" stroke="#8b5cf6" stroke-width="2"/>
+                            <path d="M30 20v20l10-10" stroke="#8b5cf6" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Advanced Security</h3>
+                    <p class="feature-description">Maximum protection for your financial data with the latest security technologies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">How Does Inzopay Work?</h2>
+                <p class="section-subtitle">Simple steps to get started with our platform</p>
+            </div>
+
+            <div class="steps-container">
+                <div class="step" data-aos="fade-right" data-aos-delay="100">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Create Account</h3>
+                        <p class="step-description">Register your account for free in just minutes</p>
+                    </div>
+                    <div class="step-icon">
+                        <svg width="80" height="80" viewBox="0 0 80 80">
+                            <circle cx="40" cy="40" r="35" fill="#f8fafc" stroke="#6366f1" stroke-width="2"/>
+                            <circle cx="40" cy="30" r="8" fill="#6366f1"/>
+                            <path d="M25 55c0-8 7-15 15-15s15 7 15 15" stroke="#6366f1" stroke-width="3" fill="none"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="step" data-aos="fade-left" data-aos-delay="200">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Connect Your Bank</h3>
+                        <p class="step-description">Link your bank account with complete security</p>
+                    </div>
+                    <div class="step-icon">
+                        <svg width="80" height="80" viewBox="0 0 80 80">
+                            <rect x="15" y="25" width="50" height="35" rx="5" fill="#f8fafc" stroke="#8b5cf6" stroke-width="2"/>
+                            <path d="M25 35h30M25 45h25M25 55h20" stroke="#8b5cf6" stroke-width="2"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="step" data-aos="fade-right" data-aos-delay="300">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Start Sending Money</h3>
+                        <p class="step-description">Send and receive money instantly with the click of a button</p>
+                    </div>
+                    <div class="step-icon">
+                        <svg width="80" height="80" viewBox="0 0 80 80">
+                            <circle cx="40" cy="40" r="35" fill="#f8fafc" stroke="#10b981" stroke-width="2"/>
+                            <path d="M25 40h30M45 30l10 10-10 10" stroke="#10b981" stroke-width="3" fill="none"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners" id="partners">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Our Trusted Partners</h2>
+                <p class="section-subtitle">We integrate with leading payment platforms and digital currencies</p>
+            </div>
+
+            <div class="partners-grid">
+                <div class="partner-card" data-aos="zoom-in" data-aos-delay="100">
+                    <svg width="120" height="60" viewBox="0 0 120 60">
+                        <rect x="15" y="15" width="90" height="30" rx="15" fill="#003087"/>
+                        <text x="60" y="35" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff">PayPal</text>
+                    </svg>
+                </div>
+                <div class="partner-card" data-aos="zoom-in" data-aos-delay="200">
+                    <svg width="120" height="60" viewBox="0 0 120 60">
+                        <circle cx="60" cy="30" r="20" fill="#f7931a"/>
+                        <text x="60" y="37" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#ffffff">₿</text>
+                        <text x="60" y="50" text-anchor="middle" font-family="Arial" font-size="10" fill="#f7931a">Bitcoin</text>
+                    </svg>
+                </div>
+                <div class="partner-card" data-aos="zoom-in" data-aos-delay="300">
+                    <svg width="120" height="60" viewBox="0 0 120 60">
+                        <rect x="20" y="18" width="80" height="24" rx="12" fill="#4285f4"/>
+                        <text x="60" y="34" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#ffffff">G Pay</text>
+                    </svg>
+                </div>
+                <div class="partner-card" data-aos="zoom-in" data-aos-delay="400">
+                    <svg width="120" height="60" viewBox="0 0 120 60">
+                        <rect x="25" y="20" width="70" height="20" rx="10" fill="#635bff"/>
+                        <text x="60" y="34" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff">stripe</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="cta">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2 class="cta-title">Ready to Get Started with Inzopay?</h2>
+                <p class="cta-subtitle">Join thousands of merchants who trust our platform for their financial transactions</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary btn-large floating-cta">Start Free</button>
+                    <button class="btn btn-outline btn-large">Talk to Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <svg width="120" height="40" viewBox="0 0 120 40" class="logo">
+                            <text x="10" y="25" font-family="Cairo, sans-serif" font-size="18" font-weight="700" fill="#6366f1">Inzopay</text>
+                        </svg>
+                        <p>Leading electronic payments platform in the region</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Instant Payments</a></li>
+                        <li><a href="#">Payment Links</a></li>
+                        <li><a href="#">Dashboard</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Technical Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Inzopay. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/animations.js"></script>
+</body>
+</html>

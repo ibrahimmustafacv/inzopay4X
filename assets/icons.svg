@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <defs>
+    <!-- Payment Icon -->
+    <g id="payment-icon">
+      <rect x="2" y="6" width="20" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="M6 10h12" stroke="currentColor" stroke-width="2"/>
+    </g>
+    
+    <!-- Security Icon -->
+    <g id="security-icon">
+      <path d="M12 2L2 7v5c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- Dashboard Icon -->
+    <g id="dashboard-icon">
+      <rect x="3" y="3" width="7" height="9" fill="none" stroke="currentColor" stroke-width="2"/>
+      <rect x="14" y="3" width="7" height="5" fill="none" stroke="currentColor" stroke-width="2"/>
+      <rect x="14" y="12" width="7" height="9" fill="none" stroke="currentColor" stroke-width="2"/>
+      <rect x="3" y="16" width="7" height="5" fill="none" stroke="currentColor" stroke-width="2"/>
+    </g>
+    
+    <!-- Speed Icon -->
+    <g id="speed-icon">
+      <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="M8 12l4 4 8-8" stroke="currentColor" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- Mobile Icon -->
+    <g id="mobile-icon">
+      <rect x="5" y="2" width="14" height="20" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/>
+      <line x1="12" y1="18" x2="12.01" y2="18" stroke="currentColor" stroke-width="2"/>
+    </g>
+    
+    <!-- Money Transfer Icon -->
+    <g id="transfer-icon">
+      <path d="M21 12H3m0 0l6-6m-6 6l6 6" stroke="currentColor" stroke-width="2" fill="none"/>
+      <circle cx="17" cy="8" r="2" fill="currentColor"/>
+      <circle cx="7" cy="16" r="2" fill="currentColor"/>
+    </g>
+    
+    <!-- Link Icon -->
+    <g id="link-icon">
+      <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" stroke="currentColor" stroke-width="2" fill="none"/>
+      <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" stroke="currentColor" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- Analytics Icon -->
+    <g id="analytics-icon">
+      <polyline points="23,6 13.5,15.5 8.5,10.5 1,18" stroke="currentColor" stroke-width="2" fill="none"/>
+      <polyline points="17,6 23,6 23,12" stroke="currentColor" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- User Icon -->
+    <g id="user-icon">
+      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="2" fill="none"/>
+      <circle cx="12" cy="7" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+    </g>
+    
+    <!-- Bank Icon -->
+    <g id="bank-icon">
+      <path d="M2 20h20v2H2zm1.5-9L12 3l8.5 8h-2L12 5.5 5.5 11h-2z" fill="currentColor"/>
+      <rect x="6" y="11" width="2" height="7" fill="currentColor"/>
+      <rect x="11" y="11" width="2" height="7" fill="currentColor"/>
+      <rect x="16" y="11" width="2" height="7" fill="currentColor"/>
+    </g>
+    
+    <!-- Check Icon -->
+    <g id="check-icon">
+      <polyline points="20,6 9,17 4,12" stroke="currentColor" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- Arrow Right Icon -->
+    <g id="arrow-right-icon">
+      <line x1="5" y1="12" x2="19" y2="12" stroke="currentColor" stroke-width="2"/>
+      <polyline points="12,5 19,12 12,19" stroke="currentColor" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- Globe Icon -->
+    <g id="globe-icon">
+      <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/>
+      <line x1="2" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="2"/>
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" stroke="currentColor" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- Star Icon -->
+    <g id="star-icon">
+      <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" fill="currentColor"/>
+    </g>
+    
+    <!-- Menu Icon -->
+    <g id="menu-icon">
+      <line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="2"/>
+      <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="2"/>
+      <line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="2"/>
+    </g>
+    
+    <!-- Close Icon -->
+    <g id="close-icon">
+      <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2"/>
+      <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"/>
+    </g>
+    
+    <!-- Play Icon -->
+    <g id="play-icon">
+      <polygon points="5,3 19,12 5,21" fill="currentColor"/>
+    </g>
+    
+    <!-- Support Icon -->
+    <g id="support-icon">
+      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" stroke="currentColor" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- Shield Icon -->
+    <g id="shield-icon">
+      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- Trending Up Icon -->
+    <g id="trending-up-icon">
+      <polyline points="23,6 13.5,15.5 8.5,10.5 1,18" stroke="currentColor" stroke-width="2" fill="none"/>
+      <polyline points="17,6 23,6 23,12" stroke="currentColor" stroke-width="2" fill="none"/>
+    </g>
+  </defs>
+</svg>
